@@ -1,0 +1,5 @@
+a = input('Enter the filename:')
+a = a.split('.')
+print('Extension is', a[-1])
+print(a)
+b = a.join('.')
